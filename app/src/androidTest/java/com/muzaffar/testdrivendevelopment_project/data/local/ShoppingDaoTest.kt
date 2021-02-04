@@ -20,6 +20,8 @@ import org.junit.runner.RunWith
 @SmallTest
 class ShoppingDaoTest {
 
+    //
+
     @get:Rule
     val instantTaskExecutorRule = InstantTaskExecutorRule()
 

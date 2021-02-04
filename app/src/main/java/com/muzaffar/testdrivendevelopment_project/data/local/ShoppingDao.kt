@@ -6,6 +6,9 @@ import androidx.room.*
 @Dao
 interface ShoppingDao {
 
+
+    // 7650172-d21d1c77638cc318cfd840f6d
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertShoppingItem(shoppingItem: ShoppingItem)
 
